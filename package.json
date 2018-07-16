@@ -1,0 +1,16 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "This is a bot which tells you the weather in a particular city",
+  "main": "index.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "author": "Shreesh",
+  "license": "ISC",
+  "dependencies": {
+    "api-ai-recognizer": "^1.1.1",
+    "botbuilder": "^3.15.0",
+    "request": "^2.87.0"
+  }
+}
