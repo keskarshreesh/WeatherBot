@@ -4,8 +4,11 @@ Bot gives real-time temperature updates for city entered by user.
 Installation requirements:
 npm and node latest versions
 Run the following commands from CLI/Powershell to install requirements:
+
 npm init
+
 npm install botbuilder api-ai-recognizer
+
 npm install request
 
 package.json updated, no need to change
