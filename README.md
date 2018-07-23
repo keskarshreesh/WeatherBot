@@ -1,7 +1,21 @@
 ﻿# WeatherBot
 Bot gives real-time temperature updates for city entered by user.
 
-Driver code is present in index.js. Microsoft Bot Framework is used, along with API AI recognizer built by Akshay 
+Installation requirements:
+npm and node latest versions
+Run the following commands from CLI/Powershell to install requirements:
+npm init
+npm install botbuilder api-ai-recognizer
+npm install request
+
+package.json updated, no need to change
+
+Driver code is present in index.js.
+Run from Command line using:
+node index.js
+
+Microsoft Bot Framework is used, along with API AI recognizer built by Akshay Ganadini:
+https://github.com/GanadiniAkshay/ApiAiRecognizer
 
 Dialogflow used for mapping intents and entities to the query. Same can be changed to LUIS or any preferred agent by making minor changes in the code, which has been indicated in the index.js file. 
 
