@@ -21,7 +21,7 @@ node index.js
 Microsoft Bot Framework is used, along with API AI recognizer built by Akshay Ganadini:
 https://github.com/GanadiniAkshay/ApiAiRecognizer
 
-Dialogflow used for mapping intents and entities to the query. To use the same make an account on Dialogflow, create a new agent and create and train the relevant intents for it. LUIS can also be used here, GUI is almost the same for both.
+Dialogflow used for mapping intents and entities to the query. To use the same make an account on Dialogflow, create a new agent and create and train the relevant intents for it. LUIS can also be used here, their GUI is almost the same.
 
 Obtain the Client Access Token from Dialogflow (View All Agents --> Select Agent --> Client Access Token). This will be used in the code(indicated in index.js file). Similarly also obtain API key for the specific API being used, APIXU is being used in this case. 
 
